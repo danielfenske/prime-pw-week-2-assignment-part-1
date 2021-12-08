@@ -24,7 +24,7 @@ console.log(luckyNumber);
 // Refer back to the videos if you need help with this one.
 
 let sentence = ('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
-console.log(sentence);
+console.log(sentence); //Statement output: 'My name is Daniel Fenske and I think 7 is a winner!
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true
@@ -54,7 +54,7 @@ console.log(allowedPets);
 // if it's not true, console log "How about we stay home?"
 
 if (adventurous) {
-console.log('Adventures are great!');
+console.log('Adventures are great!'); //Statement output
 } else {
   console.log('How about we stay home?');
 }
@@ -65,7 +65,7 @@ console.log('Adventures are great!');
 if (luckyNumber === 2 && adventurous) {
   console.log('Roll the dice!');
 } else {
-  console.log('Stay at home, kid.');
+  console.log('Stay at home, kid.'); //Statement output
 }
 
 // 15 - Write a conditional that console logs "I can have more pets!"
@@ -75,7 +75,7 @@ if (luckyNumber === 2 && adventurous) {
 // if the value of `pets` is greater than the value of `allowedPets`.
 
 if (pets < allowedPets)
-  console.log('I can have more pets!');
+  console.log('I can have more pets!'); //Statement output
   else if (pets === allowedPets){
     console.log('I have enough pets');
   } else if (pets > allowedPets) {
@@ -94,7 +94,7 @@ if (pets < allowedPets)
       console.log('Oh no, I have too many pets!');
     }
     else if (catAndDogAllergies){
-      console.log('No pets allowed!'); // statement output... Fish?
+      console.log('No pets allowed!'); // statement output... 'No pets allowed!' Should I buy a fish?
     }
 
 // STRETCH GOALS:
