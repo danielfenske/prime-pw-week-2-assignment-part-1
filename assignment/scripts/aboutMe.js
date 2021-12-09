@@ -94,7 +94,7 @@ if (pets < allowedPets)
       console.log('Oh no, I have too many pets!');
     }
     else if (catAndDogAllergies){
-      console.log('No pets allowed!'); // statement output... 'No pets allowed!' Should I buy a fish?
+      console.log('No pets allowed!'); // Statement output: 'No pets allowed!' Should I buy a fish?
     }
 
 // STRETCH GOALS:
@@ -105,7 +105,49 @@ if (pets < allowedPets)
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
 
+pets = 0;
+friendsPets = 1;
+
+console.log(pets);
+console.log(friendsPets);
+
+let mostPets = true
+
+if (pets > friendsPets) {
+  mostPets = pets;
+  console.log('I have more pets than my friend (' + mostPets + ').');
+} else if (pets < friendsPets) {
+  mostPets = friendsPets;
+  console.log('My friend has more pets than me (' + mostPets + ').'); // Statement output
+} else if (pets === friendsPets) {
+  mostPets = 'My friend and I have the same number of pets (' + pets + ').';
+}
+
+console.log(mostPets); // Output = 1 (friendsPets)
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
+pets = 4
+friendsPets = 3
+mostPets = true;
+
+switch (mostPets) {
+  case pets > friendsPets:
+    mostPets = pets;
+    console.log('I have more pets than my friend (' + mostPets + ').'); // Statement output
+    break;
+    case pets < friendsPets:
+    mostPets = friendsPets;
+    console.log('My friend has more pets than me (' + mostPets + ').');
+    break;
+  default:
+    console.log('My friend and I have the same number of pets (' + pets + ').');
+}
+
+console.log(mostPets); // Output = 4 (pets)
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
+adventurous = true;
+
+adventurous ? console.log('Adventures are great!') : console.log('How about we stay home?'); // Statement output: 'Adventures are great!'
