@@ -43,7 +43,7 @@ let friendsPets = 1
 console.log(friendsPets);
 
 // 11 - Add two pets to your `pets` variable
-pets = 0
+pets += 2
 console.log(pets);
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
