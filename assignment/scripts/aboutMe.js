@@ -111,7 +111,7 @@ friendsPets = 1;
 console.log(pets);
 console.log(friendsPets);
 
-let mostPets = true
+let mostPets = true;
 
 if (pets > friendsPets) {
   mostPets = pets;
@@ -124,6 +124,11 @@ if (pets > friendsPets) {
 }
 
 console.log(mostPets); // Output = 1 (friendsPets)
+
+//*******************************CLASS REVIEW*************??
+
+let otherMostPets = Math.max(pets, friendsPets);
+console.log('Other most pets are:', otherMostPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
